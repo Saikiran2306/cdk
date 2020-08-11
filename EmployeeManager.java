@@ -77,7 +77,7 @@ class EmpManager {
 
 }
 
-public class Lab5 {
+public class EmployeeManager {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
