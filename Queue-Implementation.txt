@@ -11,7 +11,7 @@ Queue Implementation
 a) Enqueue ( Adding an element at the rear of the queue)
 
 i) Check that count is less than size of queue
-If yes, add element to array and update the rear element value
+If yes, add element to array and update the rear element value and increment count variable
 
 else
 queue is full
@@ -22,5 +22,5 @@ i) Check that queue is empty
 If yes, queue is emepty
 
 else
-update the front element value
+update the front element value and decrement count variable
 
