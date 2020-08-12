@@ -1,0 +1,72 @@
+1) Source code Vs Object code
+
+- Source code is generally program written by user in particular programming language by following the language syntax.
+- Example .java
+
+- Object code is a output obtained, when source code is compiled by particular language compiler.
+- Example .class
+
+2) Compiler with flags
+
+- Flags are used in compiler to enhance the performance of compiler to reduce code size and execution time.
+
+3) Keywords, Variables
+
+- Keywords are the reserved words in a programming language, which has specific defination and function. Keywords cannot be used by the users for the variables names.
+
+- Variables are the used to store the data entered by user such as number,text. Once the variable is declared it can be used anywhere in the program until its scope.
+
+4) Variable scope, lifetime, initial value, modifiers
+
+- Scope of a variable refers to in which areas or sections of a program where the variable can be accessed.
+
+- Lifetime of variable refers to how long the variable remains alive in the memory.
+
+- Initial value is the value that contained in the variable at the time of declaration.
+- Local variables does not have any default value, hence the user has to initilize at the time of variable declaration.
+- Class level variables has a respective default values.
+
+5) Programming Constructs (Selection construct and loop constructs)
+
+- Selection constructs are generally refers as conditional statements such as IF statement.
+
+- Loop constructs are used when we want to executes a number of statements particular time. (for, while, do while)
+
+6) Declare Array, Store data in array and process elements
+
+- An array is the collection of elements of similar data type by contagious memory allocation.
+- Array is linear data structure, the size of the array need to defined at the time of array initialzation.
+- The elements of an array accessed using the array index.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+1) Linkedlist
+
+- Linear data structure
+- Dynamic allocation.
+- Can access elements of linkedlist only by sequence.
+- Linkedlist are used when we want to store some variable number of elements(not fixed size).
+- Insert and delete operation performance are fast.
+- update and retrieve operation performance are slow.
+- Usage of meromry is high.
+- Memory is assigned during run time.
+
+2) Stack
+
+- Linear data structure
+- Static allocation
+- Performs Last In First Out operation
+
+3) Queue
+
+- Linear data structure
+- Static allocation
+- Performs First In First Out operation
+
+4) Binary tree
+
+- NonLinear data structure
+- The first node in the tree is a root node.
+- Each node can have atmost two childrens left child and right child.
+- Each node contains three components left subtree, right subtree and data element.
+
+
