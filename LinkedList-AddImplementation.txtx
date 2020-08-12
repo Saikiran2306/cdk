@@ -9,17 +9,17 @@ Linkedlist
 - Make node [ E ] to point to the starting node of the list
 
 2. At last
-- Traverse the list and make pointer topoint to the last node
+- Traverse the list and make pointer to point to the last node
 - Make last node to point to the new node [ E ]
 
 3.After to the node [ B ]
 - Traverse the list and stop at node [ B ]
-- Take a temporary variable and store the next address of node [ B ]
-- Make node [B] to point to new node [ E ], and point node [ E ] to temporary variable
+- Take a temporary pointer variable and store the next address of node [ B ]
+- Make node [ B ] to point to new node [ E ], and point node [ E ] to temporary variable
 
 
 - Removing a node at given index
 
-- Take two pointers one points to current node and one points to previous node
-- Take a count variable, and increment the count variable while traversing until count == index
+- Take two pointers one points to current node (current pointer) and one points to previous node (previous pointer)
+- Take a count variable, and increment the count variable while traversing the list until count == index
 - Make current pointer to point to next of it and make previous pointer to point to current pointer
