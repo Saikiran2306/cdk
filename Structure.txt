@@ -18,3 +18,18 @@ Linkedlist supports
 - update and retrieve operation performance are slow.
 - Usage of meromry is high.
 - Memory is assigned during run time.
+
+
+Stack supports
+
+- Static allocation
+- Performs Last In First Out operation
+
+
+Queue Supports
+
+- Static allocation
+- Performs First In First Out operation
+
+
+
