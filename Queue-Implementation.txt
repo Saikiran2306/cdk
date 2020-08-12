@@ -1,0 +1,26 @@
+Queue Implementation
+
+1. Data members
+
+- An Array (to store elements of queue)
+- front (which points to starting element of queue)
+- rear (which points to the last element of queue)
+- count (to get the size of queue)
+
+2. Methods
+a) Enqueue ( Adding an element at the rear of the queue)
+
+i) Check that count is less than size of queue
+If yes, add element to array and update the rear element value
+
+else
+queue is full
+
+b) Dequeue(removing an element at the front of queue)
+
+i) Check that queue is empty
+If yes, queue is emepty
+
+else
+update the front element value
+
