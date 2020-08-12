@@ -1,0 +1,20 @@
+Arrays supports
+
+- Static allocation.
+- Can access elements of array by sequence and by randomly.
+- Arrays are used when we want to store some fixed number of elements.
+- Insert and delete operation performance are slow.
+- update and retrieve operation performance are fast.
+- Usage of meromry is less.
+- Memory is assigned during compile time.
+
+
+Linkedlist supports
+
+- Dynamic allocation.
+- Can access elements of linkedlist only by sequence.
+- Linkedlist are used when we want to store some variable number of elements(not fixed size).
+- Insert and delete operation performance are fast.
+- update and retrieve operation performance are slow.
+- Usage of meromry is high.
+- Memory is assigned during run time.
