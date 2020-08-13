@@ -39,6 +39,40 @@
 - The elements of an array accessed using the array index.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------
+1) Pointers, Declare and Initialize pointers
+
+- Pointer is a variable which store the address of an another variable.
+- Pointer Initialization is the process of assigning address of a variable to a pointer variable. Pointer variable can only contain address   of a variable of the same data type.
+- Declare of pointer can be done as * symbol specifies it is a pointer variable. You must prefix * before variable name to declare it as a pointer.
+
+2) Function definitions/invocations
+
+- Function defination is a signature of function. It has a specific name, parameters, return type.
+
+- Function invocation is a call to a function. When a function is called it starts executes to perform specific task.
+
+3) Call functions by passing values and addresses
+
+- Call by value is passing primitive data type variables to a function. In call by value concept a copy of actual arguments are copied into formal arguments. Any change to formal arguments does not effect the actual arguments.
+
+- Call by address is passing the object references as parameters, hence any chages made in the function with object will effect the original parameters.
+
+4) Dynamic memory allocation/de allocation
+
+- Dynamic memory allocation is allocation of memory at runtime. We can allocate varaiable size length.
+
+- Deallocation is freeing up the memory whatever the user has allocated.
+
+5) Memory leakage
+
+- Memory leak is a scenario that occurs when objects are no longer being used by the application, but the Garbage Collector is unable to remove them from working memory because they're still being referenced.
+
+6) User Defined Structures
+
+- User defined structure are the collection of values of different data types. (Class, Structure)
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+
 1) Linkedlist
 
 - Linear data structure
