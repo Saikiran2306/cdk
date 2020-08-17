@@ -12,8 +12,7 @@
 	function display() {
 
 		for (var i = ++len; i < arr.length; i++) {
-			var table = document.getElementById("table");
-			var newRow = table.insertRow(-1);
+			var newRow = document.getElementById("table").insertRow(-1);
 			newRow.insertCell(0).innerHTML = (i + 1);
 			newRow.insertCell(1).innerHTML = arr[i];
 		len=i;
