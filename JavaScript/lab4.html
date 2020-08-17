@@ -1,0 +1,39 @@
+<html>
+<head>
+<title>Add and display array</title>
+<script>
+	var arr = [];
+	function addName() {
+		arr.push(document.getElementById("name").value);
+		document.getElementById("name").value = "";
+	}
+
+	function display() {
+
+		for (var i = 0; i < arr.length; i++) {
+			var table = document.getElementById("table");
+			var newRow = table.insertRow(-1);
+			newRow.insertCell(0).innerHTML = (i + 1);
+			newRow.insertCell(1).innerHTML = arr[i];
+
+		}
+	}
+</script>
+</head>
+
+<body align="center">
+
+	Enter the name
+	<input type="text" id="name">
+	<button onclick="addName()">Add</button>
+	<button onclick="display()">Display</button>
+	<br>
+	<br>
+	<table id="table" align="center" border="1">
+		<tr>
+			<th>S.no</th>
+			<th>Name</th>
+		</tr>
+	</table>
+</body>
+</html>
