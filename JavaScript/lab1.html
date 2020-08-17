@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script type="text/javascript">
+	function addEmployee() {
+
+		var no = document.getElementById("empno").value, name = document
+				.getElementById("ename").value, sal = document
+				.getElementById("esal").value;
+		document.getElementById("no").innerHTML = no;
+		document.getElementById("name").innerHTML = name;
+		document.getElementById("sal").innerHTML = sal;
+	}
+</script>
+
+</head>
+<body>
+
+	<table>
+		<tr>
+			<td>Enter Employee Name</td>
+			<td><input type="text" id="ename" />
+			<td>
+		</tr>
+		<tr>
+			<td>Enter Employee Number</td>
+			<td><input type="text" id="empno" /></td>
+		</tr>
+		<tr>
+			<td>Enter Salary</td>
+			<td><input type="number" id="esal" /></td>
+		</tr>
+		<tr>
+			<td><input id="btn" type="button" value="Add"
+				onclick="addEmployee()" /></td>
+		</tr>
+	</table>
+	<br> <br>
+	<div>
+		<table border="1">
+			<tr>
+				<th>EmpNo</th>
+				<th>EmpName</th>
+				<th>Salary</th>
+			</tr>
+
+			<tr>
+				<td id="no"></td>
+				<td id="name"></td>
+				<td id="sal"></td>
+			</tr>
+
+		</table>
+	</div>
+</body>
+</html>
