@@ -3,6 +3,7 @@
 <title>Add and display array</title>
 <script>
 	var arr = [];
+	var len=-1;
 	function addName() {
 		arr.push(document.getElementById("name").value);
 		document.getElementById("name").value = "";
@@ -10,12 +11,12 @@
 
 	function display() {
 
-		for (var i = 0; i < arr.length; i++) {
+		for (var i = ++len; i < arr.length; i++) {
 			var table = document.getElementById("table");
 			var newRow = table.insertRow(-1);
 			newRow.insertCell(0).innerHTML = (i + 1);
 			newRow.insertCell(1).innerHTML = arr[i];
-
+		len=i;
 		}
 	}
 </script>
@@ -37,3 +38,4 @@
 	</table>
 </body>
 </html>
+
