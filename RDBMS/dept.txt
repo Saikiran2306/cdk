@@ -1,0 +1,29 @@
+name starts with "R"
+select * from dept where ename like 'R%';
+
+
+name ends with "li"
+select * from dept where ename like '%li';
+
+
+name has "sh" 
+select * from dept where ename like '%sh%';
+
+
+salary - <,>,<=,>=, !=, between
+select * from dept where salary>100;
+
+select * from dept where salary<2000;
+
+select * from dept where salary<=500;
+
+select * from dept where salary>=1000;
+
+select * from dept where salary!=100;
+
+deptno is IT
+select * from dept where dept='IT';
+
+
+deptno is IT or FN (IN)
+select * from dept where dept in('IT','FI');
