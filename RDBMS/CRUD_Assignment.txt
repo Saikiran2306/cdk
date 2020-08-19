@@ -1,0 +1,50 @@
+-> create personid, personname,city, state ,bdate, aadhar number.
+
+create table person (pid number(10),pname varchar(20), city varchar(102), state varchar(20),dob date,aadhaar number(12), constraint  pk_pid primary key (pid));
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-> insert records
+
+insert into person values(101,'Raghu','Hyderabad','AndhraParadesh',to_date('17-11-1981','dd-mm-yyyy'),420385697845,);
+insert into person values(102,'Reena','Mumbai','Maharasthra',to_date('7-1-1997','dd-mm-yyyy'),420368412039);
+insert into person values(103,'Prakash','Pune','Maharasthra',to_date('23-06-1995','dd-mm-yyyy'),420234785126);
+insert into person values(104,'SaiKiran','Hyderabad','Telangana',to_date('17-09-1988','dd-mm-yyyy'),420345872103);
+insert into person values(105,'Anu','Hyderabad','AndhraParadesh',to_date('05-03-1992','dd-mm-yyyy'),420336874512);
+insert into person values(106,'Kranthi','Bangalore','Karnataka',to_date('15-07-1979','dd-mm-yyyy'),420387451203);
+insert into person values(107,'Balu','Bangalore','Karnataka',to_date('17-12-1987','dd-mm-yyyy'),420374512306);
+insert into person values(108,'Mahesh','Noida','UttarParadesh',to_date('11-08-1984','dd-mm-yyyy'),42030145236);
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-> modify all the fields for existing personid
+
+update person set pid=109,pname='Ganga',city='Bangalore',state='Karnataka',date=to_date('13-10-1980','dd-mm-yyyy'),aadhaar=402399655478 where pid=107;
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-> modify only one field for many records with some condition
+
+update person set city='Hyderabad',state='Telangana' where state='AndhraParadesh';
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-> delete with pk
+
+delete from person where pid=109;
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-> delete where city="hyd"
+
+delete from person where state='Maharasthra';
+
+
+
+
+
+
+
+
+
+
